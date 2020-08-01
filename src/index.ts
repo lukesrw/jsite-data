@@ -108,7 +108,7 @@ export = class Data implements DataInterface {
     /**
      * ...just in case the end user doesn't define it.
      *
-     * @returns {object} literally {}
+     * @returns {object} literally {} unless overriden
      */
     static getProperties(): DataSetInterface {
         return {};
