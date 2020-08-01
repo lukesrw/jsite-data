@@ -1,0 +1,35 @@
+{
+    "name": "jsite-data",
+    "version": "2.2.2",
+    "description": "Simple generic data class for extension",
+    "main": "index.js",
+    "scripts": {
+        "clean": "tsc && node dist/src/clean",
+        "build": "npm run clean && tsc",
+        "test": "mocha --reporter min",
+        "git": "npm run test && npm run clean"
+    },
+    "devDependencies": {
+        "@types/node": "^14.0.23",
+        "chai": "^4.2.0",
+        "mocha": "^8.0.1"
+    },
+    "keywords": [
+        "jsite",
+        "jsite-data",
+        "data",
+        "generic",
+        "object",
+        "extendable",
+        "extend",
+        "validation",
+        "validate"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lukesrw/jsite-data.git"
+    },
+    "author": "Luke Wilson <lukesrw@gmail.com>",
+    "license": "MIT",
+    "homepage": "https://github.com/lukesrw/jsite-data"
+}
