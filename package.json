@@ -1,6 +1,6 @@
 {
     "name": "jsite-data",
-    "version": "2.2.2",
+    "version": "2.3.0",
     "description": "Simple generic data class for extension",
     "main": "index.js",
     "scripts": {
